@@ -1,0 +1,1 @@
+/usr/bin/c++  -g  -rdynamic CMakeFiles/size_pointer.dir/size_pointer.cpp.o  -o size_pointer 

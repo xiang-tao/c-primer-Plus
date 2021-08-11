@@ -1,5 +1,0 @@
-/home/xt/github/c-primer-Plus/buid/CMakeFiles/rebuild_cache.dir
-/home/xt/github/c-primer-Plus/buid/CMakeFiles/edit_cache.dir
-/home/xt/github/c-primer-Plus/buid/test/CMakeFiles/rebuild_cache.dir
-/home/xt/github/c-primer-Plus/buid/test/CMakeFiles/edit_cache.dir
-/home/xt/github/c-primer-Plus/buid/test/CMakeFiles/test.dir
