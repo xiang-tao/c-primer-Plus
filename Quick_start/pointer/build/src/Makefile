@@ -111,6 +111,21 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+src/CMakeFiles/test.dir/rule:
+	cd /home/xt/github/c-primer-Plus/Quick_start/pointer/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/test.dir/rule
+.PHONY : src/CMakeFiles/test.dir/rule
+
+# Convenience name for target.
+test: src/CMakeFiles/test.dir/rule
+
+.PHONY : test
+
+# fast build rule for target.
+test/fast:
+	cd /home/xt/github/c-primer-Plus/Quick_start/pointer/build && $(MAKE) -f src/CMakeFiles/test.dir/build.make src/CMakeFiles/test.dir/build
+.PHONY : test/fast
+
+# Convenience name for target.
 src/CMakeFiles/size_pointer.dir/rule:
 	cd /home/xt/github/c-primer-Plus/Quick_start/pointer/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/size_pointer.dir/rule
 .PHONY : src/CMakeFiles/size_pointer.dir/rule
@@ -194,6 +209,33 @@ size_pointer.cpp.s:
 	cd /home/xt/github/c-primer-Plus/Quick_start/pointer/build && $(MAKE) -f src/CMakeFiles/size_pointer.dir/build.make src/CMakeFiles/size_pointer.dir/size_pointer.cpp.s
 .PHONY : size_pointer.cpp.s
 
+test.o: test.cpp.o
+
+.PHONY : test.o
+
+# target to build an object file
+test.cpp.o:
+	cd /home/xt/github/c-primer-Plus/Quick_start/pointer/build && $(MAKE) -f src/CMakeFiles/test.dir/build.make src/CMakeFiles/test.dir/test.cpp.o
+.PHONY : test.cpp.o
+
+test.i: test.cpp.i
+
+.PHONY : test.i
+
+# target to preprocess a source file
+test.cpp.i:
+	cd /home/xt/github/c-primer-Plus/Quick_start/pointer/build && $(MAKE) -f src/CMakeFiles/test.dir/build.make src/CMakeFiles/test.dir/test.cpp.i
+.PHONY : test.cpp.i
+
+test.s: test.cpp.s
+
+.PHONY : test.s
+
+# target to generate assembly for a file
+test.cpp.s:
+	cd /home/xt/github/c-primer-Plus/Quick_start/pointer/build && $(MAKE) -f src/CMakeFiles/test.dir/build.make src/CMakeFiles/test.dir/test.cpp.s
+.PHONY : test.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -202,6 +244,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... test"
 	@echo "... size_pointer"
 	@echo "... hello"
 	@echo "... hello.o"
@@ -210,6 +253,9 @@ help:
 	@echo "... size_pointer.o"
 	@echo "... size_pointer.i"
 	@echo "... size_pointer.s"
+	@echo "... test.o"
+	@echo "... test.i"
+	@echo "... test.s"
 .PHONY : help
 
 

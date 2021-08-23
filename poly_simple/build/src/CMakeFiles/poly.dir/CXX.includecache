@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/xt/github/c-primer-Plus/poly_simple/include/Polynomial.h
+iostream
+-
+string
+-
+
+/home/xt/github/c-primer-Plus/poly_simple/src/poly.cpp
+iostream
+-
+../include/Polynomial.h
+/home/xt/github/c-primer-Plus/poly_simple/include/Polynomial.h
+
