@@ -1,7 +1,0 @@
-/home/xt/github/c-primer-Plus/Quick_start/pointer/build/CMakeFiles/rebuild_cache.dir
-/home/xt/github/c-primer-Plus/Quick_start/pointer/build/CMakeFiles/edit_cache.dir
-/home/xt/github/c-primer-Plus/Quick_start/pointer/build/src/CMakeFiles/rebuild_cache.dir
-/home/xt/github/c-primer-Plus/Quick_start/pointer/build/src/CMakeFiles/edit_cache.dir
-/home/xt/github/c-primer-Plus/Quick_start/pointer/build/src/CMakeFiles/test.dir
-/home/xt/github/c-primer-Plus/Quick_start/pointer/build/src/CMakeFiles/size_pointer.dir
-/home/xt/github/c-primer-Plus/Quick_start/pointer/build/src/CMakeFiles/hello.dir

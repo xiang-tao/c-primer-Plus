@@ -1,7 +1,0 @@
-/home/xt/github/c-primer-Plus/Quick_start/struct/build/CMakeFiles/rebuild_cache.dir
-/home/xt/github/c-primer-Plus/Quick_start/struct/build/CMakeFiles/edit_cache.dir
-/home/xt/github/c-primer-Plus/Quick_start/struct/build/src/CMakeFiles/rebuild_cache.dir
-/home/xt/github/c-primer-Plus/Quick_start/struct/build/src/CMakeFiles/edit_cache.dir
-/home/xt/github/c-primer-Plus/Quick_start/struct/build/src/CMakeFiles/test.dir
-/home/xt/github/c-primer-Plus/Quick_start/struct/build/src/CMakeFiles/struct_01.dir
-/home/xt/github/c-primer-Plus/Quick_start/struct/build/src/CMakeFiles/hello.dir
