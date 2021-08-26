@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/MyArray.h
+iostream
+-
+
+/home/xt/github/c-primer-Plus/array/src/arrayclass.cpp
+iostream
+-
+MyArray.h
+/home/xt/github/c-primer-Plus/array/src/MyArray.h
+
