@@ -6,7 +6,13 @@
 
 #IncludeRegexTransform: 
 
+../include/swap.h
+iostream
+-
+
 /home/xt/github/c-primer-Plus/cppclass/src/hello.cpp
 iostream
 -
+swap.h
+/home/xt/github/c-primer-Plus/cppclass/src/swap.h
 

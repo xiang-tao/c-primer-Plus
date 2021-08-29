@@ -1,1 +1,1 @@
-/usr/bin/c++  -g  -rdynamic CMakeFiles/foreachTransform.dir/foreachTransform.cpp.o  -o foreachTransform 
+/usr/bin/c++   -Wall -g  -rdynamic CMakeFiles/foreachTransform.dir/foreachTransform.cpp.o  -o foreachTransform 

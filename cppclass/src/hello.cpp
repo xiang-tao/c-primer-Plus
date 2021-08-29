@@ -1,7 +1,10 @@
-#include<iostream>
+#include <iostream>
+#include "swap.h"
 using namespace std;
 int main()
 {
-    cout<<"hello c++"<<endl;
+    int a = 3;
+    print(a);
+    cout << "hello c++" << endl;
     return 0;
 }
