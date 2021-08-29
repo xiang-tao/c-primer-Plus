@@ -1,0 +1,7 @@
+/home/xt/github/c-primer-Plus/cppclass/build/CMakeFiles/rebuild_cache.dir
+/home/xt/github/c-primer-Plus/cppclass/build/CMakeFiles/edit_cache.dir
+/home/xt/github/c-primer-Plus/cppclass/build/src/CMakeFiles/rebuild_cache.dir
+/home/xt/github/c-primer-Plus/cppclass/build/src/CMakeFiles/foreachTransform.dir
+/home/xt/github/c-primer-Plus/cppclass/build/src/CMakeFiles/edit_cache.dir
+/home/xt/github/c-primer-Plus/cppclass/build/src/CMakeFiles/test.dir
+/home/xt/github/c-primer-Plus/cppclass/build/src/CMakeFiles/hello.dir

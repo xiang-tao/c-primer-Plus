@@ -1,7 +1,0 @@
-/home/xt/github/c-primer-Plus/array/build/CMakeFiles/rebuild_cache.dir
-/home/xt/github/c-primer-Plus/array/build/CMakeFiles/edit_cache.dir
-/home/xt/github/c-primer-Plus/array/build/src/CMakeFiles/rebuild_cache.dir
-/home/xt/github/c-primer-Plus/array/build/src/CMakeFiles/arrayclass.dir
-/home/xt/github/c-primer-Plus/array/build/src/CMakeFiles/edit_cache.dir
-/home/xt/github/c-primer-Plus/array/build/src/CMakeFiles/test.dir
-/home/xt/github/c-primer-Plus/array/build/src/CMakeFiles/hello.dir
