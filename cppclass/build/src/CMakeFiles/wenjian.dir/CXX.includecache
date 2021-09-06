@@ -6,7 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/xt/github/c-primer-Plus/cppclass/src/hello.cpp
+/home/xt/github/c-primer-Plus/cppclass/src/wenjian.cpp
 iostream
+-
+fstream
 -
 

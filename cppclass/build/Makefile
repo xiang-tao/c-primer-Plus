@@ -111,6 +111,45 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named wenjian
+
+# Build rule for target.
+wenjian: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 wenjian
+.PHONY : wenjian
+
+# fast build rule for target.
+wenjian/fast:
+	$(MAKE) -f src/CMakeFiles/wenjian.dir/build.make src/CMakeFiles/wenjian.dir/build
+.PHONY : wenjian/fast
+
+#=============================================================================
+# Target rules for targets named copy
+
+# Build rule for target.
+copy: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 copy
+.PHONY : copy
+
+# fast build rule for target.
+copy/fast:
+	$(MAKE) -f src/CMakeFiles/copy.dir/build.make src/CMakeFiles/copy.dir/build
+.PHONY : copy/fast
+
+#=============================================================================
+# Target rules for targets named find
+
+# Build rule for target.
+find: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 find
+.PHONY : find
+
+# fast build rule for target.
+find/fast:
+	$(MAKE) -f src/CMakeFiles/find.dir/build.make src/CMakeFiles/find.dir/build
+.PHONY : find/fast
+
+#=============================================================================
 # Target rules for targets named foreachTransform
 
 # Build rule for target.
@@ -157,6 +196,9 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... wenjian"
+	@echo "... copy"
+	@echo "... find"
 	@echo "... foreachTransform"
 	@echo "... test"
 	@echo "... hello"

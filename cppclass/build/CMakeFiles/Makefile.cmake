@@ -52,6 +52,9 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "src/CMakeFiles/wenjian.dir/DependInfo.cmake"
+  "src/CMakeFiles/copy.dir/DependInfo.cmake"
+  "src/CMakeFiles/find.dir/DependInfo.cmake"
   "src/CMakeFiles/foreachTransform.dir/DependInfo.cmake"
   "src/CMakeFiles/test.dir/DependInfo.cmake"
   "src/CMakeFiles/hello.dir/DependInfo.cmake"

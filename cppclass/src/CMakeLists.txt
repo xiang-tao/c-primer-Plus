@@ -1,5 +1,6 @@
 add_executable(hello hello.cpp)
 add_executable(test test.cpp)
 add_executable(foreachTransform foreachTransform.cpp)
-
-
+add_executable(find find.cpp)
+add_executable(copy copy.cpp)
+add_executable(wenjian wenjian.cpp)

@@ -6,7 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/xt/github/c-primer-Plus/cppclass/src/hello.cpp
+/home/xt/github/c-primer-Plus/cppclass/src/find.cpp
 iostream
+-
+vector
+-
+algorithm
+-
+string
 -
 

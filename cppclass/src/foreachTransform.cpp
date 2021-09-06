@@ -10,7 +10,7 @@ class TransForm
 public:
 	int operator()(int val)
 	{
-		return val;
+		return val+100;
 	}
 };
 

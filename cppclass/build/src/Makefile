@@ -111,6 +111,51 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+src/CMakeFiles/wenjian.dir/rule:
+	cd /home/xt/github/c-primer-Plus/cppclass/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/wenjian.dir/rule
+.PHONY : src/CMakeFiles/wenjian.dir/rule
+
+# Convenience name for target.
+wenjian: src/CMakeFiles/wenjian.dir/rule
+
+.PHONY : wenjian
+
+# fast build rule for target.
+wenjian/fast:
+	cd /home/xt/github/c-primer-Plus/cppclass/build && $(MAKE) -f src/CMakeFiles/wenjian.dir/build.make src/CMakeFiles/wenjian.dir/build
+.PHONY : wenjian/fast
+
+# Convenience name for target.
+src/CMakeFiles/copy.dir/rule:
+	cd /home/xt/github/c-primer-Plus/cppclass/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/copy.dir/rule
+.PHONY : src/CMakeFiles/copy.dir/rule
+
+# Convenience name for target.
+copy: src/CMakeFiles/copy.dir/rule
+
+.PHONY : copy
+
+# fast build rule for target.
+copy/fast:
+	cd /home/xt/github/c-primer-Plus/cppclass/build && $(MAKE) -f src/CMakeFiles/copy.dir/build.make src/CMakeFiles/copy.dir/build
+.PHONY : copy/fast
+
+# Convenience name for target.
+src/CMakeFiles/find.dir/rule:
+	cd /home/xt/github/c-primer-Plus/cppclass/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/find.dir/rule
+.PHONY : src/CMakeFiles/find.dir/rule
+
+# Convenience name for target.
+find: src/CMakeFiles/find.dir/rule
+
+.PHONY : find
+
+# fast build rule for target.
+find/fast:
+	cd /home/xt/github/c-primer-Plus/cppclass/build && $(MAKE) -f src/CMakeFiles/find.dir/build.make src/CMakeFiles/find.dir/build
+.PHONY : find/fast
+
+# Convenience name for target.
 src/CMakeFiles/foreachTransform.dir/rule:
 	cd /home/xt/github/c-primer-Plus/cppclass/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/foreachTransform.dir/rule
 .PHONY : src/CMakeFiles/foreachTransform.dir/rule
@@ -154,6 +199,60 @@ hello: src/CMakeFiles/hello.dir/rule
 hello/fast:
 	cd /home/xt/github/c-primer-Plus/cppclass/build && $(MAKE) -f src/CMakeFiles/hello.dir/build.make src/CMakeFiles/hello.dir/build
 .PHONY : hello/fast
+
+copy.o: copy.cpp.o
+
+.PHONY : copy.o
+
+# target to build an object file
+copy.cpp.o:
+	cd /home/xt/github/c-primer-Plus/cppclass/build && $(MAKE) -f src/CMakeFiles/copy.dir/build.make src/CMakeFiles/copy.dir/copy.cpp.o
+.PHONY : copy.cpp.o
+
+copy.i: copy.cpp.i
+
+.PHONY : copy.i
+
+# target to preprocess a source file
+copy.cpp.i:
+	cd /home/xt/github/c-primer-Plus/cppclass/build && $(MAKE) -f src/CMakeFiles/copy.dir/build.make src/CMakeFiles/copy.dir/copy.cpp.i
+.PHONY : copy.cpp.i
+
+copy.s: copy.cpp.s
+
+.PHONY : copy.s
+
+# target to generate assembly for a file
+copy.cpp.s:
+	cd /home/xt/github/c-primer-Plus/cppclass/build && $(MAKE) -f src/CMakeFiles/copy.dir/build.make src/CMakeFiles/copy.dir/copy.cpp.s
+.PHONY : copy.cpp.s
+
+find.o: find.cpp.o
+
+.PHONY : find.o
+
+# target to build an object file
+find.cpp.o:
+	cd /home/xt/github/c-primer-Plus/cppclass/build && $(MAKE) -f src/CMakeFiles/find.dir/build.make src/CMakeFiles/find.dir/find.cpp.o
+.PHONY : find.cpp.o
+
+find.i: find.cpp.i
+
+.PHONY : find.i
+
+# target to preprocess a source file
+find.cpp.i:
+	cd /home/xt/github/c-primer-Plus/cppclass/build && $(MAKE) -f src/CMakeFiles/find.dir/build.make src/CMakeFiles/find.dir/find.cpp.i
+.PHONY : find.cpp.i
+
+find.s: find.cpp.s
+
+.PHONY : find.s
+
+# target to generate assembly for a file
+find.cpp.s:
+	cd /home/xt/github/c-primer-Plus/cppclass/build && $(MAKE) -f src/CMakeFiles/find.dir/build.make src/CMakeFiles/find.dir/find.cpp.s
+.PHONY : find.cpp.s
 
 foreachTransform.o: foreachTransform.cpp.o
 
@@ -236,6 +335,33 @@ test.cpp.s:
 	cd /home/xt/github/c-primer-Plus/cppclass/build && $(MAKE) -f src/CMakeFiles/test.dir/build.make src/CMakeFiles/test.dir/test.cpp.s
 .PHONY : test.cpp.s
 
+wenjian.o: wenjian.cpp.o
+
+.PHONY : wenjian.o
+
+# target to build an object file
+wenjian.cpp.o:
+	cd /home/xt/github/c-primer-Plus/cppclass/build && $(MAKE) -f src/CMakeFiles/wenjian.dir/build.make src/CMakeFiles/wenjian.dir/wenjian.cpp.o
+.PHONY : wenjian.cpp.o
+
+wenjian.i: wenjian.cpp.i
+
+.PHONY : wenjian.i
+
+# target to preprocess a source file
+wenjian.cpp.i:
+	cd /home/xt/github/c-primer-Plus/cppclass/build && $(MAKE) -f src/CMakeFiles/wenjian.dir/build.make src/CMakeFiles/wenjian.dir/wenjian.cpp.i
+.PHONY : wenjian.cpp.i
+
+wenjian.s: wenjian.cpp.s
+
+.PHONY : wenjian.s
+
+# target to generate assembly for a file
+wenjian.cpp.s:
+	cd /home/xt/github/c-primer-Plus/cppclass/build && $(MAKE) -f src/CMakeFiles/wenjian.dir/build.make src/CMakeFiles/wenjian.dir/wenjian.cpp.s
+.PHONY : wenjian.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -243,10 +369,19 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... wenjian"
+	@echo "... copy"
+	@echo "... find"
 	@echo "... foreachTransform"
 	@echo "... edit_cache"
 	@echo "... test"
 	@echo "... hello"
+	@echo "... copy.o"
+	@echo "... copy.i"
+	@echo "... copy.s"
+	@echo "... find.o"
+	@echo "... find.i"
+	@echo "... find.s"
 	@echo "... foreachTransform.o"
 	@echo "... foreachTransform.i"
 	@echo "... foreachTransform.s"
@@ -256,6 +391,9 @@ help:
 	@echo "... test.o"
 	@echo "... test.i"
 	@echo "... test.s"
+	@echo "... wenjian.o"
+	@echo "... wenjian.i"
+	@echo "... wenjian.s"
 .PHONY : help
 
 
